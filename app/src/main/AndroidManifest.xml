@@ -20,6 +20,14 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="33">
 
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAS30d6pimUQr7WxedqxYzZvZt-JCtX0j8" />
+
+
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
         <activity
             android:name=".Info.InfoList"
             android:label="지원플랫폼" />
@@ -35,7 +43,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>

@@ -6,7 +6,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 
 import com.parkky.jbdaon.Info.InfoList;
 import com.pedro.library.AutoPermissions;
@@ -24,8 +23,9 @@ public class MainActivity extends AppCompatActivity implements AutoPermissionsLi
 
         AutoPermissions.Companion.loadAllPermissions(this, 101);
 
-        Print_Log("MainActivity", "ReLoginActivity 호출 함. ");
+        Print_Log("MainActivity", "Main-2 을 호출 함. ");
 
+        //intent = new Intent(this, InfoList.class);
         intent = new Intent(this, InfoList.class);
         startActivity(intent);
 

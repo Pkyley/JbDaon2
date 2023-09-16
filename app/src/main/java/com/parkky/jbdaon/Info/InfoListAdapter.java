@@ -83,7 +83,8 @@ public class InfoListAdapter extends RecyclerView.Adapter<InfoListAdapter.ViewHo
             String date_view_y = item.wdate.substring(2, 4);
             String date_view_m = item.wdate.substring(4, 6);
             String date_view_d = item.wdate.substring(6, 8);
-            String data_view_set = date_view_y + "-" + date_view_m + "-" + date_view_d;
+            //String data_view_set = date_view_y + "-" + date_view_m + "-" + date_view_d;
+            String data_view_set = date_view_m + "-" + date_view_d;
             //Print_Log(TAG, "date_view_L : " + date_set.length());
             //String date_view = Security.decrypt(item.lastdrvdt, PSec_Key);
             //if(date_view == null || date_view.equals("")) {

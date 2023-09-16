@@ -9,11 +9,19 @@ public class InfoViewJson {
     public String id;
     @SerializedName("title")
     public String title;
+    @SerializedName("htmlmode")
+    public String htmlmode;
+    @SerializedName("content")
+    public String content;
     @SerializedName("wname")
     public String wname;
     @SerializedName("wdate")
     public String wdate;
-    @SerializedName("content")
-    public String content;
+    @SerializedName("lat")
+    public String lat;
+    @SerializedName("lng")
+    public String lng;
+    @SerializedName("addr")
+    public String addr;
 
 }
